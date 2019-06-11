@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 
 
 const routes: Routes = [
+	{ path: '', redirectTo: '/Home', pathMatch: 'full'}
 	{ path: 'Home', component : HeaderComponent},
 	{ path: 'About', component : IntroComponent},
 	{ path: 'Services', component : ContentComponent},
